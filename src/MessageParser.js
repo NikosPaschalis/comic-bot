@@ -9,6 +9,11 @@ class MessageParser {
         
         if (lowerCaseMessage.includes("hello")) {
           this.actionProvider.greet()
+        }else if(lowerCaseMessage.includes("Donald Duck")){
+          this.actionProvider.handleJavascriptList()
+        }
+          else{
+          this.actionProvider.unknown()
         }
       }
     }

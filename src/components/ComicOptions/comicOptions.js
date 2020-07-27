@@ -4,10 +4,31 @@ import "./comicOptions.css";
 
 const ComicOptions = (props) => {
   const options = [
-    { text: "Donald Duck", handler: () => {}, id: 1 },
-    { text: "Micky Mouse", handler: () => {}, id: 2 },
-    { text: "Komix", handler: () => {}, id: 3 },
-    { text: "Various", handler: () => {}, id: 4 },
+    {
+      text: "Donald Duck",
+      handler: props.actionProvider.handleJavascriptList,
+      id: 1,
+    },
+    {
+      text: "Micky Mouse",
+      handler: props.actionProvider.handleEmptyItems,
+      id: 2,
+    },
+    {
+      text: "Komix",
+      handler: props.actionProvider.handleEmptyItems,
+      id: 3,
+    },
+    {
+      text: "Various",
+      handler: props.actionProvider.handleEmptyItems,
+      id: 4,
+    },
+    {
+      text: "Resources",
+      handler: props.actionProvider.handleResources,
+      id: 5,
+    }
   ];
 
   const optionsMarkup = options.map((option) => (
