@@ -2,6 +2,7 @@ import React from 'react';
 import { createChatBotMessage } from "react-chatbot-kit";
 import ComicOptions from './components/ComicOptions/comicOptions.js';
 import LinkList from './components/LinkList/LinkList';
+import ServerList from './components/ServerList/ServerList';
 
 const config = {
   botName: "ComicBot",
@@ -25,7 +26,7 @@ const config = {
     	widgetFunc: (props) => <ComicOptions {...props} />,
      },
      {
-      widgetName: "DonaldDuckLinks",
+      widgetName: "Donald Duck",
       widgetFunc: (props) => <LinkList {...props} />,
       props: {
         options: [
@@ -67,7 +68,11 @@ const config = {
         ]
       }
       
-    }
+    },
+    {
+      widgetName: "Mickey Mouse",
+      widgetFunc: () => <ServerList />
+    },
  ]
 }
 

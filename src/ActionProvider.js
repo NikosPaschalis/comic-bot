@@ -12,11 +12,23 @@ class ActionProvider {
       const unknowngMessage = this.createChatBotMessage("Sorry I haven't learned this command yet! 😓 Please contact my master 🧞")
       this.updateChatbotState(unknowngMessage)
     }
+    //Donald Duck handler
     handleJavascriptList = () => {
       const message = this.createChatBotMessage(
         "Fantastic, I've got the following resources for you on Donald Duck:",
         {
-          widget: "DonaldDuckLinks",
+          widget: "Donald Duck",
+        }
+      );
+  
+      this.updateChatbotState(message);
+    };
+    //Mickey Mouse handler
+    handleMickeyMouse = () => {
+      const message = this.createChatBotMessage(
+        "Fantastic, I've got the following resources for you on Mickey Mouse:",
+        {
+          widget: "Mickey Mouse",
         }
       );
   

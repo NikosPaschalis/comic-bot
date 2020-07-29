@@ -8,12 +8,16 @@ class MessageParser {
         const lowerCaseMessage = message.toLowerCase()
         
         if (lowerCaseMessage.includes("hello")) {
-          this.actionProvider.greet()
-        }else if(lowerCaseMessage.includes("Donald Duck")){
-          this.actionProvider.handleJavascriptList()
+          this.actionProvider.greet();
+        }
+        else if(lowerCaseMessage.includes("donald duck")){
+          this.actionProvider.handleJavascriptList();
+        }
+        else if(lowerCaseMessage.includes("mickey mouse")){
+          this.actionProvider.handleMickeyMouse();
         }
           else{
-          this.actionProvider.unknown()
+          this.actionProvider.unknown();
         }
       }
     }

@@ -11,7 +11,7 @@ const ComicOptions = (props) => {
     },
     {
       text: "Micky Mouse",
-      handler: props.actionProvider.handleEmptyItems,
+      handler: props.actionProvider.handleMickeyMouse,
       id: 2,
     },
     {
