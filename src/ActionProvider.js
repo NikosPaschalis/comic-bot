@@ -5,15 +5,15 @@ class ActionProvider {
     }
     
     greet() {
-      const greetingMessage = this.createChatBotMessage("Hi, friend.")
+      const greetingMessage = this.createChatBotMessage("Hi, friend 😄 Let me help you find your favourite comic");
       this.updateChatbotState(greetingMessage)
     }
     unknown(){
-      const unknowngMessage = this.createChatBotMessage("Sorry I haven't learned this command yet! 😓 Please contact my master 🧞")
+      const unknowngMessage = this.createChatBotMessage("Sorry I haven't learned this command yet! 😓 Please contact my master 🧞");
       this.updateChatbotState(unknowngMessage)
     }
     //Donald Duck handler
-    handleJavascriptList = () => {
+    handleDonaldDuck = () => {
       const message = this.createChatBotMessage(
         "Fantastic, I've got the following resources for you on Donald Duck:",
         {

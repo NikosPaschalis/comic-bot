@@ -6,7 +6,7 @@ const ComicOptions = (props) => {
   const options = [
     {
       text: "Donald Duck",
-      handler: props.actionProvider.handleJavascriptList,
+      handler: props.actionProvider.handleDonaldDuck,
       id: 1,
     },
     {
