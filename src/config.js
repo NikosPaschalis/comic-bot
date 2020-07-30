@@ -27,28 +27,10 @@ const config = {
      },
      {
       widgetName: "Donald Duck",
-      widgetFunc: (props) => <LinkList {...props} />,
+      widgetFunc: (props) => <ServerList {...props} />,
       props: {
-        options: [
-          {
-            text: "Ντόναλντ 01",
-            url:
-              "https://e.issuu.com/issuu-reader3-embed-files/latest/twittercard.html?u=argiriskouvelas&d=donald_01",
-            id: 1,
-          },
-          {
-            text: "Ντόναλντ 02",
-            url:
-              "https://e.issuu.com/issuu-reader3-embed-files/latest/twittercard.html?u=argiriskouvelas&d=donald_02",
-            id: 2,
-          },
-          {
-            text: "Ντόναλντ 03",
-            url: "https://e.issuu.com/issuu-reader3-embed-files/latest/twittercard.html?u=argiriskouvelas&d=donald_03",
-            id: 3,
-          },
-        ],
-      },
+        name: "DonaldDuck"
+      }
     },
     {
       widgetName: "Resources",
@@ -71,7 +53,13 @@ const config = {
     },
     {
       widgetName: "Mickey Mouse",
-      widgetFunc: () => <ServerList />
+      widgetFunc: (props) => <ServerList {...props}/>,
+      props: { name: "MickeyMouse"}
+    },
+    {
+      widgetName: "Komix",
+      widgetFunc: (props) => <ServerList {...props}/>,
+      props: { name: "Komix"}
     },
  ]
 }

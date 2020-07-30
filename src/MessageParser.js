@@ -23,7 +23,7 @@ class MessageParser {
           this.actionProvider.handleMickeyMouse();
         }
         else if(testCaseKomix.test(lowerCaseMessage)){
-          this.actionProvider.handleEmptyItems();
+          this.actionProvider.handleKomix();
         }
         else if(testCaseVarious.test(lowerCaseMessage)){
           this.actionProvider.handleEmptyItems();

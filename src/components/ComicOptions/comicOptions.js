@@ -16,7 +16,7 @@ const ComicOptions = (props) => {
     },
     {
       text: "Komix",
-      handler: props.actionProvider.handleEmptyItems,
+      handler: props.actionProvider.handleKomix,
       id: 3,
     },
     {

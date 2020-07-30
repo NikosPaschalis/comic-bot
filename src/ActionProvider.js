@@ -51,6 +51,16 @@ class ActionProvider {
   
       this.updateChatbotState(message);
     }
+    handleKomix = () =>{
+      const message = this.createChatBotMessage(
+        "Fantastic, I've got the following resources for you on Komix:",
+        {
+          widget: "Komix",
+        }
+      );
+  
+      this.updateChatbotState(message);
+    }
     updateChatbotState(message) {
   // NOTE: This function is set in the constructor, and is passed in      // from the top level Chatbot component. The setState function here     // actually manipulates the top level state of the Chatbot, so it's     // important that we make sure that we preserve the previous state.
      this.setState(prevState => ({
