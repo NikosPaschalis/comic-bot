@@ -9,7 +9,10 @@ class MessageParser {
 
         const testCaseGreet = /hello|hi|γεια|geia|καλημερα|kalhmera|καλησπερα|kalhspera|morning/i;
         const testCaseDonald = /donald|duck|ντοναλντ|ντακ/i;
-        let testCaseMickey = /mickey|mouse|μικυ|μαους/i;
+        const testCaseMickey = /mickey|mouse|μικυ|μαους/i;
+        const testCaseKomix = /komix|κομιξ/i;
+        const testCaseVarious = /various|διαφορα|diafora/i;
+        
         if (testCaseGreet.test(lowerCaseMessage)) {
           this.actionProvider.greet();
         }
@@ -18,6 +21,12 @@ class MessageParser {
         }
         else if(testCaseMickey.test(lowerCaseMessage)){
           this.actionProvider.handleMickeyMouse();
+        }
+        else if(testCaseKomix.test(lowerCaseMessage)){
+          this.actionProvider.handleEmptyItems();
+        }
+        else if(testCaseVarious.test(lowerCaseMessage)){
+          this.actionProvider.handleEmptyItems();
         }
           else{
           this.actionProvider.unknown();
