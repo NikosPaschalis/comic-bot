@@ -14,5 +14,28 @@
   </head>
   <body>
     <div id="root"></div>
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyCNLxCWNM2XWbpeX5uOhpQfBNGDHBCuvwM",
+    authDomain: "comic-bot-fe2f1.firebaseapp.com",
+    databaseURL: "https://comic-bot-fe2f1.firebaseio.com",
+    projectId: "comic-bot-fe2f1",
+    storageBucket: "comic-bot-fe2f1.appspot.com",
+    messagingSenderId: "108155586983",
+    appId: "1:108155586983:web:914def195bdb7cf6bc0e82",
+    measurementId: "G-XK7S67GGPW"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
   </body>
 </html>
