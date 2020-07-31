@@ -1,4 +1,6 @@
 import React, { useState, useEffect } from "react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUnlink } from '@fortawesome/free-solid-svg-icons'
 import axios from "axios";
 import "./ServerList.css";
 
@@ -34,7 +36,9 @@ const ServerList = (props) => {
                 rel="noopener noreferrer"
                 className="link-list-item-url">
                 {key}
+                <a className="test" href="/"><FontAwesomeIcon size="xs" icon={faUnlink} /></a>
               </a>
+              
             </li>
           );
         })}

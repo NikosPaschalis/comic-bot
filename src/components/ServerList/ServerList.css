@@ -5,6 +5,7 @@
   .link-list-item {
     text-align: left;
     font-size: 0.9rem;
+    
   }
   
   .link-list-item-url {
@@ -27,4 +28,7 @@
     border-radius: 3px;
     box-shadow: 2px 2px 4px rgba(150, 149, 149, 0.4);
   
+  }
+  .test{
+    padding-left: 10px;
   }

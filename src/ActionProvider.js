@@ -5,11 +5,17 @@ class ActionProvider {
     }
     
     greet() {
-      const greetingMessage = this.createChatBotMessage("Hi, friend 😄 Let me help you find your favourite comic");
+      const greetingMessage = this.createChatBotMessage("Hi, friend 😄 Let me help you find your favourite comic",
+      {
+        widget: "ComicOptions",
+      });
       this.updateChatbotState(greetingMessage)
     }
     unknown(){
-      const unknowngMessage = this.createChatBotMessage("Sorry I haven't learned this command yet! 😓 Please contact my master 🧞");
+      const unknowngMessage = this.createChatBotMessage("Sorry I haven't learned this command yet! 😓 Maybe you wanna try one of these options:",
+      {
+        widget: "ComicOptions",
+      });
       this.updateChatbotState(unknowngMessage)
     }
     //Donald Duck handler
@@ -56,6 +62,16 @@ class ActionProvider {
         "Fantastic, I've got the following resources for you on Komix:",
         {
           widget: "Komix",
+        }
+      );
+  
+      this.updateChatbotState(message);
+    }
+    handleVarious = () =>{
+      const message = this.createChatBotMessage(
+        "Fantastic, I've got the following resources for you on Various:",
+        {
+          widget: "Various",
         }
       );
   

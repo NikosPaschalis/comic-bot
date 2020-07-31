@@ -26,7 +26,7 @@ class MessageParser {
           this.actionProvider.handleKomix();
         }
         else if(testCaseVarious.test(lowerCaseMessage)){
-          this.actionProvider.handleEmptyItems();
+          this.actionProvider.handleVarious();
         }
           else{
           this.actionProvider.unknown();

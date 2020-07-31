@@ -61,6 +61,11 @@ const config = {
       widgetFunc: (props) => <ServerList {...props}/>,
       props: { name: "Komix"}
     },
+    {
+      widgetName: "Various",
+      widgetFunc: (props) => <ServerList {...props}/>,
+      props: { name: "Various"}
+    },
  ]
 }
 
