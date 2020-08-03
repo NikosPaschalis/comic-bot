@@ -20,15 +20,15 @@ const ComicOptions = (props) => {
       id: 3,
     },
     {
-      text: "Various",
-      handler: props.actionProvider.handleVarious,
+      text: "Classics",
+      handler: props.actionProvider.handleKlasika,
       id: 4,
     },
-    // {
-    //   text: "Resources",
-    //   handler: props.actionProvider.handleResources,
-    //   id: 5,
-    // }
+    {
+      text: "Various",
+      handler: props.actionProvider.handleVarious,
+      id: 5,
+    }  
   ];
 
   const optionsMarkup = options.map((option) => (

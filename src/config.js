@@ -1,8 +1,8 @@
 import React from 'react';
 import { createChatBotMessage } from "react-chatbot-kit";
 import ComicOptions from './components/ComicOptions/comicOptions.js';
-import LinkList from './components/LinkList/LinkList';
 import ServerList from './components/ServerList/ServerList';
+import ServerList2 from './components/ServerList2.0/ServerList2';
 
 const config = {
   botName: "ComicBot",
@@ -33,25 +33,6 @@ const config = {
       }
     },
     {
-      widgetName: "Resources",
-      widgetFunc: (props) => <LinkList {...props} />,
-      props: {
-        options: [
-          {
-            text: "Facebook Fan Page",
-            url:
-              "https://www.facebook.com/groups/grcomicpdf/"
-            
-          },
-          {
-            text: "Smilefreeware",
-            url: "http://users.sch.gr/vasanagno/comics.html"
-          }
-        ]
-      }
-      
-    },
-    {
       widgetName: "Mickey Mouse",
       widgetFunc: (props) => <ServerList {...props}/>,
       props: { name: "MickeyMouse"}
@@ -66,6 +47,11 @@ const config = {
       widgetFunc: (props) => <ServerList {...props}/>,
       props: { name: "Various"}
     },
+    {
+      widgetName: "klasika",
+      widgetFunc: (props) => <ServerList2 {...props}/>,
+      props: { name: "Klassika"}
+    }
  ]
 }
 

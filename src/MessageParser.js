@@ -12,6 +12,7 @@ class MessageParser {
         const testCaseMickey = /mickey|mouse|μικυ|μαους/i;
         const testCaseKomix = /komix|κομιξ/i;
         const testCaseVarious = /various|διαφορα|diafora/i;
+        const testCaseKlassika = /κλασικα|klasika/i;
         
         if (testCaseGreet.test(lowerCaseMessage)) {
           this.actionProvider.greet();
@@ -27,6 +28,10 @@ class MessageParser {
         }
         else if(testCaseVarious.test(lowerCaseMessage)){
           this.actionProvider.handleVarious();
+        }
+        else if(testCaseKlassika.test(lowerCaseMessage))
+        {
+          this.actionProvider.handleKlasika();
         }
           else{
           this.actionProvider.unknown();
