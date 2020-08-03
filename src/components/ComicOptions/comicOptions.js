@@ -10,12 +10,12 @@ const ComicOptions = (props) => {
       id: 1,
     },
     {
-      text: "Micky Mouse",
+      text: "Mickey Mouse",
       handler: props.actionProvider.handleMickeyMouse,
       id: 2,
     },
     {
-      text: "Komix",
+      text: "Komiξ",
       handler: props.actionProvider.handleKomix,
       id: 3,
     },

@@ -13,8 +13,13 @@ function App() {
       <header className="App-header">
       
       <Chatbot config={config} actionProvider={ActionProvider} messageParser={MessageParser} />
+      
+      
+      
+      
       </header>
       <Footer />
+      
     </div>
   );
 }

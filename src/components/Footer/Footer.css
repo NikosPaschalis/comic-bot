@@ -1,6 +1,7 @@
 .footer {
     flex-shrink: 0;
     text-align: center;
+    min-height: 5vh;
    
 
   }
