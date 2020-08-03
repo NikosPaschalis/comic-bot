@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/comic-bot/static/css/main.bae22fcc.chunk.css",
-    "main.js": "/comic-bot/static/js/main.f8c1d59a.chunk.js",
-    "main.js.map": "/comic-bot/static/js/main.f8c1d59a.chunk.js.map",
+    "main.css": "/comic-bot/static/css/main.89c7d6f7.chunk.css",
+    "main.js": "/comic-bot/static/js/main.66e300e7.chunk.js",
+    "main.js.map": "/comic-bot/static/js/main.66e300e7.chunk.js.map",
     "runtime-main.js": "/comic-bot/static/js/runtime-main.96902a49.js",
     "runtime-main.js.map": "/comic-bot/static/js/runtime-main.96902a49.js.map",
-    "static/js/2.d108781e.chunk.js": "/comic-bot/static/js/2.d108781e.chunk.js",
-    "static/js/2.d108781e.chunk.js.map": "/comic-bot/static/js/2.d108781e.chunk.js.map",
+    "static/js/2.0fabc22c.chunk.js": "/comic-bot/static/js/2.0fabc22c.chunk.js",
+    "static/js/2.0fabc22c.chunk.js.map": "/comic-bot/static/js/2.0fabc22c.chunk.js.map",
     "index.html": "/comic-bot/index.html",
-    "precache-manifest.6327057ba461f0d1e4a0edeea0a545b1.js": "/comic-bot/precache-manifest.6327057ba461f0d1e4a0edeea0a545b1.js",
+    "precache-manifest.af8d67a01aa8b0cec9ecde9b231e097d.js": "/comic-bot/precache-manifest.af8d67a01aa8b0cec9ecde9b231e097d.js",
     "service-worker.js": "/comic-bot/service-worker.js",
-    "static/css/main.bae22fcc.chunk.css.map": "/comic-bot/static/css/main.bae22fcc.chunk.css.map",
-    "static/js/2.d108781e.chunk.js.LICENSE.txt": "/comic-bot/static/js/2.d108781e.chunk.js.LICENSE.txt"
+    "static/css/main.89c7d6f7.chunk.css.map": "/comic-bot/static/css/main.89c7d6f7.chunk.css.map",
+    "static/js/2.0fabc22c.chunk.js.LICENSE.txt": "/comic-bot/static/js/2.0fabc22c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.96902a49.js",
-    "static/js/2.d108781e.chunk.js",
-    "static/css/main.bae22fcc.chunk.css",
-    "static/js/main.f8c1d59a.chunk.js"
+    "static/js/2.0fabc22c.chunk.js",
+    "static/css/main.89c7d6f7.chunk.css",
+    "static/js/main.66e300e7.chunk.js"
   ]
 }
