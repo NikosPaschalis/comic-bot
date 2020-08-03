@@ -19,7 +19,7 @@ const ServerList = (props) => {
       setErr("Woops something went wrong on our end! I'm brewing some coffee and calling the master to fix it.");
     });
 
-  }, []);
+  }, [url]);
 
   return (
     err ?
@@ -27,7 +27,6 @@ const ServerList = (props) => {
       :
       <ul className="link-list">
         {Object.keys(data).map(function (key, index) {
-
           return (
             <li className="link-list-item" key={key}>
               <a
@@ -37,8 +36,7 @@ const ServerList = (props) => {
                 className="link-list-item-url">
                 {key}
                 <a className="test" href="/"><FontAwesomeIcon size="xs" icon={faUnlink} /></a>
-              </a>
-              
+              </a> 
             </li>
           );
         })}
