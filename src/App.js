@@ -11,12 +11,8 @@ function App() {
     <div className="App">
     
       <header className="App-header">
-      
-      <Chatbot config={config} actionProvider={ActionProvider} messageParser={MessageParser} />
-      
-      
-      
-      
+        <h3>Your Friendly Comic-Bot</h3>
+        <Chatbot config={config} actionProvider={ActionProvider} messageParser={MessageParser} />
       </header>
       <Footer />
       

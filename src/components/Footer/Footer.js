@@ -10,7 +10,7 @@ const Footer = () => (
                 <a href="https://www.paypal.com/paypalme/nikospsxls">
                     <FontAwesomeIcon size="xs" icon={faCoffee} /> Treat me a coffee to keep coding
                 </a>
-                <a href="mailto:nikospasxalis94@gmail.com">
+                <a href="https://www.linkedin.com/in/nikospasxalis/">
                     <FontAwesomeIcon size="xs" icon={faLinkedinIn} /> LinkedIn
                 </a>
                 <a href="mailto:nikospasxalis94@gmail.com">
