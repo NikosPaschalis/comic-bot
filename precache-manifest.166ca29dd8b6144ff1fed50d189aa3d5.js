@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a6f639b38ca9b385454798119f66a1bc",
+    "revision": "457c91e480115fb50c802acab4cf1b27",
     "url": "/comic-bot/index.html"
   },
   {
