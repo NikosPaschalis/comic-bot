@@ -34,7 +34,7 @@ const config = {
     },
     {
       widgetName: "Mickey Mouse",
-      widgetFunc: (props) => <ServerList {...props}/>,
+      widgetFunc: (props) => <ServerList2 {...props}/>,
       props: { name: "MickeyMouse"}
     },
     {
